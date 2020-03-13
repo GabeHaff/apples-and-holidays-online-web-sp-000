@@ -77,6 +77,7 @@ holiday_name = []
      info.each do |holiday, supplies|
        if supplies.include?("BBQ")
          holiday_name << holiday 
+         holiday
        end 
      end 
    end 
